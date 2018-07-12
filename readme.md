@@ -1,18 +1,11 @@
-# Lets talk about - Example
+# Lets talk about - SAM (Serverless Application Model)
 
-This is an example how to use the [Lets talk about template](https://github.com/tamino-martinius/lets-talk-about--template) as an dependency.
+[View Slides](https://lets-talk-about--sam.taminomartinius.de)
 
-## How to modify and run
+## Links
 
-- Frok this repository
-- Configure your Theme with `styles.styl`.
-- Add backgrounds to `assets/bg/<num>.jpg`.
-- Set the number of background images with `styles.styl`.
-  You can also select if you want them ordered or random.
-- Add your slides to `index.pug`.
-- Install all dependencies with `npm install`.
-- Compile and preview the slides with `npm run start`.
+[CloudFormation Resources](https://docs.aws.amazon.com/en_us/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html)
 
-## Preview
+[SAM GitHub Repo](https://github.com/awslabs/serverless-application-model)
 
-[Demo Slides](http://tamino-martinius.github.io/lets-talk-about--example)
+[SAM CLI GitHub Repo](https://github.com/awslabs/aws-sam-cli)
