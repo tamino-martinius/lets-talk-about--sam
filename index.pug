@@ -113,6 +113,28 @@ html
           li S3
           li Stage
           li Mapping
+      article
+        h2 CloudFormation
+        ul.build
+          li Templates for AWS Infrastructure
+          li Parameters -> Resources -> Output
+          li Version Control, Change Sets
+          li A bit like docker compose
+          li json/yaml
+      article
+        h2 CloudFormation issues
+        ul.build
+          li Lambda needs code within S3
+          li API Gateway needs Swagger File within S3
+      article
+        h2 CloudFormation solution
+        ul.build
+          li Small initial Stack including S3
+          li Upload files
+          li Apply ChangeSet with Lambda and API Gateway
+          li
+            b or
+          li package (needs S3 again)
       article.section
         h1 New Section
       article
