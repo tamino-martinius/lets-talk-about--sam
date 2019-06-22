@@ -1,6 +1,7 @@
 # Lets talk about - SAM (Serverless Application Model)
 
-[View Slides](https://lets-talk-about--sam.taminomartinius.de)
+[View Slides](https://sam.lets-talk-about.tamino.dev
+)
 
 ## Links
 
