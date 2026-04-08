@@ -68,6 +68,7 @@ build: true
 - **Automation (Extending AWS Services)**
 
 ---
+build: true
 
 ## AWS Services - Data
 - S3
@@ -76,6 +77,7 @@ build: true
 - Aurora (MySQL)
 
 ---
+build: true
 
 ## AWS Services - Management
 - CloudFormation
@@ -84,6 +86,7 @@ build: true
 - CloudWatch
 
 ---
+build: true
 
 ## AWS Services - Endpoints
 - API Gateway
@@ -91,6 +94,7 @@ build: true
 - Step Functions
 
 ---
+build: true
 
 ## AWS Services - Messages
 - SES
@@ -98,6 +102,7 @@ build: true
 - Cron
 
 ---
+build: true
 
 ## Lambda - What is needed?
 - Role
@@ -116,6 +121,7 @@ build: true
 - **API Gateway**
 
 ---
+build: true
 
 ## API Gateway - What is needed?
 - API
@@ -125,6 +131,7 @@ build: true
 - Mapping
 
 ---
+build: true
 
 ## CloudFormation
 - Templates for AWS Infrastructure
@@ -134,12 +141,14 @@ build: true
 - json/yaml
 
 ---
+build: true
 
 ## CloudFormation issues
 - Lambda needs code within S3
 - API Gateway needs Swagger File within S3
 
 ---
+build: true
 
 ## CloudFormation solution
 - Small initial Stack including S3
@@ -154,6 +163,7 @@ type: section
 # SAM
 
 ---
+build: true
 
 ## SAM - What?
 - CloudFormation extension
@@ -161,6 +171,7 @@ type: section
 - CLI
 
 ---
+build: true
 
 ## SAM - New Types
 - AWS::Serverless::Api
@@ -168,6 +179,7 @@ type: section
 - AWS::Serverless::Function
 
 ---
+build: true
 
 ## SAM - New Types
 - AWS::Serverless::Api
@@ -175,6 +187,7 @@ type: section
 - **AWS::Serverless::Function**
 
 ---
+build: true
 
 ## AWS::Serverless::Function
 - Role
@@ -193,6 +206,7 @@ type: section
 - **Events**
 
 ---
+build: true
 
 ## Event Sources
 - S3
@@ -202,6 +216,7 @@ type: section
 - Schedule
 
 ---
+build: true
 
 ## CLI
 - init
@@ -220,6 +235,7 @@ type: section
 - **local**
 
 ---
+build: true
 
 ## SAM - Local
 - generate-event
